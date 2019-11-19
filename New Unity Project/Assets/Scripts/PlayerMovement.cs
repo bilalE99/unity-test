@@ -7,6 +7,9 @@ public class PlayerMovement : MonoBehaviour
     //collectable coins - score count
     //speed increase as you go further 
     //random placement of objects
+    //fire rings - take health
+    //ramp/jump
+
 
 
     public Rigidbody rb;

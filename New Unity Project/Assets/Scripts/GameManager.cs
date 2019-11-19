@@ -6,9 +6,11 @@ public class GameManager : MonoBehaviour
     bool gameEnd = false;
     public float endDelay = 1f;
 
+    public GameObject completeObjectUI;
+
     public void completeLevel()
     {
-        Debug.Log("won");
+        completeObjectUI.SetActive(true);
     }
     public void EndGame()
     {
